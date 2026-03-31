@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "category": "Booking",
+    "question": "How do I book a tour package with Rhino Holidays?",
+    "answer": "You can book a tour package by contacting us through our website contact form, calling our customer service number, or emailing us directly. Our team will guide you through the booking process, help customize your itinerary, and provide all necessary details."
+  },
+  {
+    "id": 2,
+    "category": "Booking",
+    "question": "What is the advance payment required for booking?",
+    "answer": "We typically require a 30% advance payment to confirm your booking. The remaining balance can be paid before the start of your trip. Payment terms may vary for peak season bookings."
+  },
+  {
+    "id": 3,
+    "category": "Payment",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept payments via bank transfer, UPI, credit/debit cards, and online payment gateways. For international travelers, we also accept PayPal and wire transfers."
+  },
+  {
+    "id": 4,
+    "category": "Cancellation",
+    "question": "What is your cancellation policy?",
+    "answer": "Cancellations made 30+ days before departure: 10% deduction. 15-30 days: 25% deduction. 7-14 days: 50% deduction. Less than 7 days: No refund. However, you can reschedule your trip subject to availability with minimal charges."
+  },
+  {
+    "id": 5,
+    "category": "Travel",
+    "question": "What is the best time to visit Sikkim and Darjeeling?",
+    "answer": "The best time to visit is during March-June (spring/summer) and September-December (autumn/winter). March-May offers blooming rhododendrons and clear skies. September-November provides excellent weather and mountain views. December-February is very cold but offers snowfall experiences."
+  },
+  {
+    "id": 6,
+    "category": "Travel",
+    "question": "Do I need permits for visiting certain areas?",
+    "answer": "Yes, permits are required for visiting Tsomgo Lake, Nathula Pass, and certain restricted areas in Sikkim. We arrange all necessary permits as part of our service. Please provide valid ID proof (Aadhaar Card, Passport) at the time of booking for permit processing."
+  },
+  {
+    "id": 7,
+    "category": "Accommodation",
+    "question": "What kind of hotels do you provide?",
+    "answer": "We provide comfortable 3-star and 4-star hotels with good amenities. All hotels are carefully selected based on location, cleanliness, and service quality. We can also arrange budget or luxury accommodations based on your preference and budget."
+  },
+  {
+    "id": 8,
+    "category": "Travel",
+    "question": "Are meals included in the package?",
+    "answer": "Most of our packages include daily breakfast. Lunch and dinner are generally not included to give you flexibility to explore local cuisine. However, we can customize packages to include all meals based on your preference."
+  },
+  {
+    "id": 9,
+    "category": "Support",
+    "question": "Will I get support during my trip?",
+    "answer": "You will have 24/7 support throughout your trip. Our local representatives and drivers are always available to assist you. We also provide emergency contact numbers that you can reach anytime."
+  },
+  {
+    "id": 10,
+    "category": "Customization",
+    "question": "Can I customize my tour package?",
+    "answer": "Yes! All our packages can be customized according to your preferences, budget, and travel dates. You can add or remove destinations, upgrade hotels, extend your stay, or modify the itinerary. Contact us to create your perfect trip."
+  }
+]
