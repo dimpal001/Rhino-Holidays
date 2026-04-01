@@ -1,44 +1,70 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Link from "next/link";
 import Image from "next/image";
-import { notFound } from "next/navigation";
+import { notFound, useParams } from "next/navigation";
 import { MapPin, Clock, Check, X, ArrowRight, Phone } from "lucide-react";
 
-export default async function TripDetailPage({ params }) {
-  const { slug } = await params;
+const TripDetailPage = () => {
+  const { slug } = useParams();
 
-  // Fetch trips
-  const tripsRes = await fetch(
-    `${
-      process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
-    }/data/trips.json`,
-    {
-      cache: "no-store",
-    },
-  );
-  const trips = await tripsRes.json();
-  const trip = trips.find((t) => t.slug === slug);
+  const [trips, setTrips] = useState([null]);
+  const [trip, setTrip] = useState(null);
+  const [tripDestinations, setTripDestinations] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  if (!trip) {
-    notFound();
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const baseUrl =
+          process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+
+        const tripsRes = await fetch(`${baseUrl}/data/trips.json`, {
+          cache: "no-store",
+        });
+        const trips = await tripsRes.json();
+        setTrips(trips);
+
+        const foundTrip = trips.find((t) => t.slug === slug);
+
+        if (!foundTrip) {
+          notFound();
+          return;
+        }
+
+        setTrip(foundTrip);
+
+        // Fetch destinations
+        const destRes = await fetch(`${baseUrl}/data/destinations.json`, {
+          cache: "no-store",
+        });
+        const destinations = await destRes.json();
+
+        const filtered = destinations.filter((d) =>
+          foundTrip.destinationIds?.includes(d.id),
+        );
+
+        setTripDestinations(filtered);
+      } catch (error) {
+        console.error("Error fetching trip data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    if (slug) fetchData();
+  }, [slug]);
+
+  if (loading) {
+    return <div className="p-10 text-center">Loading...</div>;
   }
 
-  // Fetch destinations
-  const destRes = await fetch(
-    `${
-      process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
-    }/data/destinations.json`,
-    {
-      cache: "no-store",
-    },
-  );
-  const destinations = await destRes.json();
-  const tripDestinations = destinations.filter((d) =>
-    trip.destinationIds?.includes(d.id),
-  );
+  if (!trip) {
+    return <div className="p-10 text-center">Trip not found</div>;
+  }
 
   return (
     <>
@@ -346,4 +372,6 @@ export default async function TripDetailPage({ params }) {
       <Footer />
     </>
   );
-}
+};
+
+export default TripDetailPage;

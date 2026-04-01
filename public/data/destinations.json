@@ -5,8 +5,8 @@
     "tagline": "Land of Pharaohs and Timeless Wonders",
     "description": "A historic destination famous for its ancient pyramids, majestic temples, and the legendary Nile River, offering a journey through one of the world’s oldest civilizations.",
     "longDescription": "Egypt is a land of timeless wonders, where ancient history comes alive through monumental architecture and rich cultural heritage. From the iconic Pyramids of Giza and the Sphinx to the grand temples of Luxor and the serene Nile River cruises, Egypt offers an immersive experience into the civilization of the Pharaohs. Explore bustling bazaars in Cairo, discover ancient tombs in the Valley of the Kings, and witness a unique blend of history, culture, and modern life.",
-    "image": "/images/destinations/egypt.jpg",
-    "heroImage": "/images/destinations/egypt.jpg",
+    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/destinations/egypt.jpg",
+    "heroImage": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/destinations/egypt.jpg",
     "highlights": [
       "Pyramids of Giza and the Great Sphinx",
       "Luxor Temple and Karnak Temple Complex",
@@ -27,8 +27,8 @@
     "tagline": "Truly Asia – Culture, Nature & Modernity",
     "description": "A diverse destination blending modern cities, tropical islands, and rich cultural heritage, offering a perfect mix of adventure and relaxation.",
     "longDescription": "Malaysia is a vibrant Southeast Asian destination known for its dynamic cities, pristine beaches, lush rainforests, and multicultural heritage. Explore Kuala Lumpur’s iconic skyline featuring the Petronas Twin Towers, relax on Langkawi’s tropical beaches, and experience cultural diversity through food, festivals, and traditions. Whether it’s shopping, island hopping, or exploring nature, Malaysia offers something for every traveler.",
-    "image": "/images/destinations/malaysia.jpg",
-    "heroImage": "/images/destinations/malaysia.jpg",
+    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/destinations/malaysia.jpg",
+    "heroImage": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/destinations/malaysia.jpg",
     "highlights": [
       "Petronas Twin Towers in Kuala Lumpur",
       "Langkawi’s pristine beaches and islands",
@@ -49,8 +49,8 @@
     "tagline": "Tropical Paradise of Islands and Adventure",
     "description": "An archipelago of over 7,000 islands offering crystal-clear waters, white sandy beaches, and vibrant cultural experiences.",
     "longDescription": "The Philippines is a tropical paradise known for its stunning beaches, crystal-clear waters, and warm hospitality. From the historic streets of Manila to the breathtaking islands of Cebu and Bohol, visitors can enjoy island hopping, snorkeling, and cultural exploration. Discover the Chocolate Hills, meet the tiny tarsiers, and experience vibrant local traditions. It’s an ideal destination for both relaxation and adventure.",
-    "image": "/images/destinations/philippines.jpg",
-    "heroImage": "/images/destinations/philippines.jpg",
+    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/destinations/philippines.jpg",
+    "heroImage": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/destinations/philippines.jpg",
     "highlights": [
       "White sand beaches and island hopping",
       "Chocolate Hills in Bohol",
