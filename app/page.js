@@ -47,7 +47,15 @@ export default async function Home() {
   const testimonials = await testimonialsRes.json();
 
   const featuredTrips = trips.filter((trip) => trip.featured).slice(0, 3);
-  const popularDestinations = destinations.slice(0, 4);
+  const popularDestinations = destinations.slice(0, 3);
+
+  const galleryRes = await fetch(
+    `${
+      process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
+    }/data/gallery.json`,
+    { cache: "no-store" },
+  );
+  const gallery = await galleryRes.json();
 
   return (
     <>
@@ -56,7 +64,7 @@ export default async function Home() {
         {/* Hero Section */}
         <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
           <Image
-            src="/himalayan-mountains-sunrise.jpg"
+            src="/hero-image.cms"
             alt="Himalayan Mountains"
             fill
             className="object-cover"
@@ -67,7 +75,7 @@ export default async function Home() {
           <div className="relative z-10 text-center text-white px-4 max-w-5xl mx-auto">
             <img src={"/logo.png"} className="w-52 opacity-70 mx-auto mb-5" />
             <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6">
-              Discover the Himalayas
+              Discover the Northeast
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto leading-relaxed">
               Roam the world, The Rhino way- from Northeast to the world!
@@ -295,7 +303,7 @@ export default async function Home() {
                   (testimonial, index) => (
                     <div
                       key={index}
-                      className="min-w-75 max-w-87.5 bg-card rounded-2xl p-6 shadow-lg"
+                      className="min-w-75 max-w-87.5 bg-card rounded-2xl p-6"
                     >
                       <div className="flex gap-1 mb-3">
                         {[...Array(testimonial.rating)].map((_, i) => (
@@ -322,6 +330,43 @@ export default async function Home() {
                   ),
                 )}
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Gallery Section */}
+        <section className="py-20 bg-background">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-4">
+                Travel Gallery
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+                Moments captured from our यात्राएँ — real experiences, real
+                memories
+              </p>
+            </div>
+
+            {/* Collage Grid */}
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[200px]">
+              {gallery.map((item, index) => (
+                <div
+                  key={item.id}
+                  className={`relative overflow-hidden rounded-xl group
+            ${index % 5 === 0 ? "md:row-span-2" : ""}
+            ${index % 7 === 0 ? "lg:col-span-2" : ""}
+          `}
+                >
+                  <Image
+                    src={item.image}
+                    alt="Travel Gallery"
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+
+                  {/* Overlay */}
+                </div>
+              ))}
             </div>
           </div>
         </section>

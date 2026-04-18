@@ -3,9 +3,16 @@
     "id": "sikkim-darjeeling-himalayan-highlights-8d7n",
     "title": "Discover Sikkim and Darjeeling Himalayan Highlights Tour",
     "slug": "sikkim-darjeeling-himalayan-highlights-8d7n",
-    "destinationIds": ["sikkim", "darjeeling", "gangtok", "lachung", "pelling"],
+    "destinationIds": [
+      "northeast-india",
+      "sikkim",
+      "darjeeling",
+      "gangtok",
+      "lachung",
+      "pelling"
+    ],
     "duration": "7 Nights / 8 Days",
-    "category": "Himalayan Tour Package",
+    "category": "Northeast Tour Package",
     "featured": true,
     "shortDescription": "Experience the timeless charm of the Eastern Himalayas with this immersive Sikkim and Darjeeling journey.",
     "description": "Experience the timeless charm of the Eastern Himalayas with this immersive Sikkim and Darjeeling journey. From the cultural vibrance of Gangtok and the pristine valleys of Lachung to the scenic beauty of Pelling and the colonial elegance of Darjeeling, this tour blends nature, heritage, and mountain serenity. Witness breathtaking landscapes, peaceful monasteries, and iconic viewpoints for a truly memorable Himalayan escape.",
@@ -72,75 +79,13 @@
     ],
     "exclusions": []
   },
-  {
-    "id": "arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n",
-    "title": "Arunachal Pradesh Himalayan Journey via Shergaon, Tawang & Dirang",
-    "slug": "arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n",
-    "destinationIds": [
-      "arunachal-pradesh",
-      "shergaon",
-      "tawang",
-      "dirang",
-      "guwahati"
-    ],
-    "duration": "4 Nights / 5 Days",
-    "category": "Himalayan Tour Package",
-    "featured": true,
-    "shortDescription": "Discover the pristine beauty of Arunachal Pradesh through Shergaon, Tawang, and Dirang on this scenic Himalayan journey.",
-    "description": "Discover the pristine beauty of Arunachal Pradesh on this scenic winter journey through Shergaon, Tawang, and Dirang. Traverse high-altitude mountain passes, witness historic war memorials, explore ancient monasteries, and soak in breathtaking Himalayan landscapes, making this tour an ideal blend of culture, nature, and adventure.",
-    "price": "",
-    "pricePerPerson": true,
-    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n/1.jpeg",
-    "gallery": [
-      "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n/1.jpeg",
-      "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n/2.jpg",
-      "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n/3.jpeg",
-      "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n/4.jpg"
-    ],
-    "itinerary": [
-      {
-        "day": "Day 1",
-        "title": "Guwahati to Shergaon – Gateway to Arunachal",
-        "description": "Arrive at Guwahati and drive through picturesque mountain roads to Shergaon. Spend time at leisure for acclimatization and enjoy an overnight stay."
-      },
-      {
-        "day": "Day 2",
-        "title": "Shergaon to Tawang – High Passes & Waterfalls",
-        "description": "Journey towards Tawang via the iconic Sela Pass. Visit the War Cemetery, Jaswant Garh War Memorial, and the stunning Nuranang Falls en route."
-      },
-      {
-        "day": "Day 3",
-        "title": "Tawang Exploration – Borders or Monasteries",
-        "description": "Choose between an adventurous visit to Bumla Pass and alpine lakes or explore Tawang Monastery, Singsor Ani Gompa, and the War Memorial."
-      },
-      {
-        "day": "Day 4",
-        "title": "Tawang to Dirang – Valleys & Hot Springs",
-        "description": "Drive to Dirang and explore the natural hot water spring, the serene Sangti Valley, and the peaceful Dirang Monastery."
-      },
-      {
-        "day": "Day 5",
-        "title": "Dirang to Guwahati – Departure",
-        "description": "Return to Guwahati with unforgettable memories and proceed to the airport or railway station for your onward journey."
-      }
-    ],
-    "services": [
-      "Accommodation on twin/triple sharing basis",
-      "Daily breakfast at all hotels",
-      "Private A/C vehicle for transfers and sightseeing",
-      "Same vehicle and driver throughout the tour",
-      "Experienced driver service (up to 12 hours/day)",
-      "Parking fees, toll taxes, and driver allowances",
-      "Inner Line Permit (ILP) for Arunachal Pradesh",
-      "Arrival and departure assistance"
-    ],
-    "exclusions": []
-  },
+
   {
     "id": "meghalaya-explorer-getaway-3n4d",
     "title": "Meghalaya Explorer Getaway",
     "slug": "meghalaya-explorer-getaway-3n4d",
     "destinationIds": [
+      "northeast-india",
       "meghalaya",
       "shillong",
       "dawki",
@@ -200,6 +145,7 @@
     "title": "The Meghalaya Adventure Trip",
     "slug": "meghalaya-adventure-trip-5n6d",
     "destinationIds": [
+      "northeast-india",
       "meghalaya",
       "shillong",
       "dawki",
@@ -270,7 +216,7 @@
     "id": "australia-wonders-sydney-cairns-melbourne-7n8d",
     "title": "Australia Wonders – Sydney, Cairns & Melbourne Adventure",
     "slug": "australia-wonders-sydney-cairns-melbourne-7n8d",
-    "destinationIds": ["australia", "sydney", "cairns", "melbourne"],
+    "destinationIds": ["australia"],
     "duration": "7 Nights / 8 Days",
     "category": "International Tour Package",
     "featured": false,
@@ -333,6 +279,71 @@
       "Private vehicle for transportation",
       "English-speaking driver cum guide",
       "Meet and greet assistance at airport"
+    ],
+    "exclusions": []
+  },
+  {
+    "id": "arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n",
+    "title": "Arunachal Pradesh Himalayan Journey via Shergaon, Tawang & Dirang",
+    "slug": "arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n",
+    "destinationIds": [
+      "northeast-india",
+      "arunachal-pradesh",
+      "shergaon",
+      "tawang",
+      "dirang",
+      "guwahati"
+    ],
+    "duration": "4 Nights / 5 Days",
+    "category": "Northeast Tour Package",
+    "featured": true,
+    "shortDescription": "Discover the pristine beauty of Arunachal Pradesh through Shergaon, Tawang, and Dirang on this scenic Himalayan journey.",
+    "description": "Discover the pristine beauty of Arunachal Pradesh on this scenic winter journey through Shergaon, Tawang, and Dirang. Traverse high-altitude mountain passes, witness historic war memorials, explore ancient monasteries, and soak in breathtaking Himalayan landscapes, making this tour an ideal blend of culture, nature, and adventure.",
+    "price": "",
+    "pricePerPerson": true,
+    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n/1.jpeg",
+    "gallery": [
+      "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n/1.jpeg",
+      "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n/2.jpg",
+      "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n/3.jpeg",
+      "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/arunachal-himalayan-journey-shergaon-tawang-dirang-5d4n/4.jpg"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Guwahati to Shergaon – Gateway to Arunachal",
+        "description": "Arrive at Guwahati and drive through picturesque mountain roads to Shergaon. Spend time at leisure for acclimatization and enjoy an overnight stay."
+      },
+      {
+        "day": "Day 2",
+        "title": "Shergaon to Tawang – High Passes & Waterfalls",
+        "description": "Journey towards Tawang via the iconic Sela Pass. Visit the War Cemetery, Jaswant Garh War Memorial, and the stunning Nuranang Falls en route."
+      },
+      {
+        "day": "Day 3",
+        "title": "Tawang Exploration – Borders or Monasteries",
+        "description": "Choose between an adventurous visit to Bumla Pass and alpine lakes or explore Tawang Monastery, Singsor Ani Gompa, and the War Memorial."
+      },
+      {
+        "day": "Day 4",
+        "title": "Tawang to Dirang – Valleys & Hot Springs",
+        "description": "Drive to Dirang and explore the natural hot water spring, the serene Sangti Valley, and the peaceful Dirang Monastery."
+      },
+      {
+        "day": "Day 5",
+        "title": "Dirang to Guwahati – Departure",
+        "description": "Return to Guwahati with unforgettable memories and proceed to the airport or railway station for your onward journey."
+      }
+    ],
+    "services": [
+      "Accommodation on twin/triple sharing basis",
+      "Daily breakfast at all hotels",
+      "Private A/C vehicle for transfers and sightseeing",
+      "Same vehicle and driver throughout the tour",
+      "Experienced driver service (up to 12 hours/day)",
+      "Parking fees, toll taxes, and driver allowances",
+      "Inner Line Permit (ILP) for Arunachal Pradesh",
+      "Arrival and departure assistance"
     ],
     "exclusions": []
   },
@@ -530,7 +541,12 @@
     "id": "magical-malaysia-escape-5n6d",
     "title": "Magical Malaysia Escape",
     "slug": "magical-malaysia-escape-5n6d",
-    "destinationIds": ["malaysia", "langkawi", "kuala-lumpur"],
+    "destinationIds": [
+      "northeast-india",
+      "malaysia",
+      "langkawi",
+      "kuala-lumpur"
+    ],
     "duration": "5 Nights / 6 Days",
     "category": "International Tour Package",
     "featured": false,

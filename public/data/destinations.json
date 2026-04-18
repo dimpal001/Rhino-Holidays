@@ -1,68 +1,170 @@
 [
   {
-    "id": "egypt",
-    "name": "Egypt",
-    "tagline": "Land of Pharaohs and Timeless Wonders",
-    "description": "A historic destination famous for its ancient pyramids, majestic temples, and the legendary Nile River, offering a journey through one of the world’s oldest civilizations.",
-    "longDescription": "Egypt is a land of timeless wonders, where ancient history comes alive through monumental architecture and rich cultural heritage. From the iconic Pyramids of Giza and the Sphinx to the grand temples of Luxor and the serene Nile River cruises, Egypt offers an immersive experience into the civilization of the Pharaohs. Explore bustling bazaars in Cairo, discover ancient tombs in the Valley of the Kings, and witness a unique blend of history, culture, and modern life.",
-    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/destinations/egypt.jpg",
-    "heroImage": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/destinations/egypt.jpg",
+    "id": "northeast-india",
+    "name": "Northeast India",
+    "tagline": "Untouched Beauty of Hills, Culture & Nature",
+    "description": "A hidden gem of India known for its lush landscapes, diverse cultures, scenic hills, and rich biodiversity across its eight unique states.",
+    "longDescription": "Northeast India is one of the most unexplored and naturally rich regions of the country, comprising eight states—Assam, Meghalaya, Arunachal Pradesh, Nagaland, Manipur, Mizoram, Tripura, and Sikkim. Known for its breathtaking landscapes, from rolling tea gardens in Assam to the living root bridges of Meghalaya and the snow-capped mountains of Arunachal Pradesh, the region offers a unique blend of nature, culture, and adventure. Visitors can experience vibrant tribal traditions, wildlife sanctuaries like Kaziranga National Park, serene monasteries, waterfalls, caves, and pristine rivers. It is an ideal destination for travelers seeking peace, authenticity, and natural beauty away from crowded tourist spots.",
+    "image": "/hero-image.cms",
+    "heroImage": "/hero-image.cms",
     "highlights": [
-      "Pyramids of Giza and the Great Sphinx",
-      "Luxor Temple and Karnak Temple Complex",
-      "Nile River Cruise experience",
-      "Valley of the Kings"
+      "Kaziranga National Park (UNESCO World Heritage Site)",
+      "Living Root Bridges in Meghalaya",
+      "Tawang Monastery in Arunachal Pradesh",
+      "Tea Gardens of Assam",
+      "Ziro Valley scenic landscapes"
     ],
     "bestTime": "October to April",
     "activities": [
-      "Historical Tours",
-      "River Cruises",
-      "Desert Safaris",
-      "Cultural Exploration"
+      "Nature Exploration",
+      "Wildlife Safari",
+      "Cultural Tours",
+      "Trekking and Adventure",
+      "Photography"
+    ]
+  },
+  {
+    "id": "australia",
+    "name": "Australia",
+    "tagline": "A Land of Iconic Cities and Natural Wonders",
+    "description": "A diverse destination known for its vibrant cities, stunning coastlines, and unique wildlife.",
+    "longDescription": "Australia offers a perfect blend of modern city life and breathtaking natural landscapes. From the iconic skyline of Sydney and the cultural charm of Melbourne to the natural wonder of the Great Barrier Reef in Cairns, the country delivers unforgettable experiences. Travelers can explore scenic coastal drives, pristine beaches, wildlife encounters, and world-class attractions, making it ideal for both adventure and leisure.",
+    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/australia-wonders-sydney-cairns-melbourne-7n8d/1.jpg",
+    "heroImage": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/australia-wonders-sydney-cairns-melbourne-7n8d/1.jpg",
+    "highlights": [
+      "Sydney Opera House and Harbour Bridge",
+      "Great Barrier Reef in Cairns",
+      "Great Ocean Road scenic drive",
+      "Bondi Beach and coastal lifestyle",
+      "Blue Mountains landscapes"
+    ],
+    "bestTime": "September to April",
+    "activities": [
+      "City Exploration",
+      "Beach Activities",
+      "Nature Tours",
+      "Adventure Experiences",
+      "Wildlife Encounters"
+    ]
+  },
+  {
+    "id": "hong-kong-macau",
+    "name": "Hong Kong & Macau",
+    "tagline": "A Fusion of Modern Energy and Cultural Heritage",
+    "description": "A vibrant blend of futuristic cityscapes and rich cultural traditions.",
+    "longDescription": "Hong Kong and Macau together offer a unique travel experience combining modern attractions, entertainment, and deep-rooted cultural heritage. Hong Kong dazzles with its skyline, shopping streets, Disneyland, and scenic islands, while Macau charms visitors with its colonial architecture, casinos, and historic landmarks. This destination is perfect for travelers seeking a mix of excitement, leisure, and culture.",
+    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/magical-hong-kong-macau-journey-5n6d/1.jpg",
+    "heroImage": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/magical-hong-kong-macau-journey-5n6d/1.jpg",
+    "highlights": [
+      "Hong Kong Disneyland",
+      "Victoria Harbour skyline",
+      "Lantau Island attractions",
+      "Macau historic center",
+      "Luxury entertainment and nightlife"
+    ],
+    "bestTime": "October to March",
+    "activities": [
+      "City Tours",
+      "Theme Park Visits",
+      "Shopping",
+      "Cultural Exploration",
+      "Entertainment Experiences"
+    ]
+  },
+  {
+    "id": "south-korea",
+    "name": "South Korea",
+    "tagline": "A Perfect Blend of Tradition and Modern Life",
+    "description": "A dynamic destination offering culture, technology, and scenic beauty.",
+    "longDescription": "South Korea is a vibrant destination where ancient traditions meet cutting-edge modernity. From the bustling capital Seoul to the coastal beauty of Busan and the natural landscapes of Jeju Island, the country offers diverse experiences. Visitors can explore palaces, temples, beaches, markets, and modern districts, making it an ideal destination for cultural discovery and urban exploration.",
+    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/south-korea-highlights-seoul-busan-jeju-6n7d/4.jpeg",
+    "heroImage": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/south-korea-highlights-seoul-busan-jeju-6n7d/4.jpeg",
+    "highlights": [
+      "Seoul city landmarks",
+      "Busan beaches and culture",
+      "Jeju Island natural beauty",
+      "Historic palaces and temples",
+      "Modern shopping districts"
+    ],
+    "bestTime": "March to May & September to November",
+    "activities": [
+      "City Exploration",
+      "Cultural Tours",
+      "Nature Trips",
+      "Shopping",
+      "Food Experiences"
+    ]
+  },
+  {
+    "id": "japan",
+    "name": "Japan",
+    "tagline": "Where Tradition Meets Innovation",
+    "description": "A fascinating country known for its culture, technology, and scenic landscapes.",
+    "longDescription": "Japan offers a unique travel experience blending ancient traditions with futuristic innovation. From the bustling streets of Tokyo to the serene landscapes of Hakone and the cultural heritage of Kyoto and Osaka, visitors can explore temples, gardens, modern attractions, and historic sites. It is an ideal destination for those seeking culture, technology, and scenic beauty.",
+    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/ultimate-japan-experience-tokyo-hakone-osaka-6n7d/1.jpg",
+    "heroImage": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/ultimate-japan-experience-tokyo-hakone-osaka-6n7d/1.jpg",
+    "highlights": [
+      "Tokyo city experience",
+      "Mount Fuji and Hakone",
+      "Kyoto temples and culture",
+      "Osaka food and nightlife",
+      "Bullet train journeys"
+    ],
+    "bestTime": "March to May & October to November",
+    "activities": [
+      "Cultural Exploration",
+      "City Tours",
+      "Nature Visits",
+      "Food Experiences",
+      "Shopping"
     ]
   },
   {
     "id": "malaysia",
     "name": "Malaysia",
-    "tagline": "Truly Asia – Culture, Nature & Modernity",
-    "description": "A diverse destination blending modern cities, tropical islands, and rich cultural heritage, offering a perfect mix of adventure and relaxation.",
-    "longDescription": "Malaysia is a vibrant Southeast Asian destination known for its dynamic cities, pristine beaches, lush rainforests, and multicultural heritage. Explore Kuala Lumpur’s iconic skyline featuring the Petronas Twin Towers, relax on Langkawi’s tropical beaches, and experience cultural diversity through food, festivals, and traditions. Whether it’s shopping, island hopping, or exploring nature, Malaysia offers something for every traveler.",
-    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/destinations/malaysia.jpg",
-    "heroImage": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/destinations/malaysia.jpg",
+    "tagline": "A Blend of Tropical Beauty and Urban Energy",
+    "description": "A vibrant destination with islands, cities, and cultural diversity.",
+    "longDescription": "Malaysia offers a perfect mix of tropical islands and modern city life. From the serene beaches of Langkawi to the bustling streets of Kuala Lumpur, the country provides diverse experiences. Visitors can enjoy scenic landscapes, cultural heritage, shopping, and vibrant nightlife, making it a well-rounded destination for all types of travelers.",
+    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/magical-malaysia-escape-5n6d/1.jpg",
+    "heroImage": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/magical-malaysia-escape-5n6d/1.jpg",
     "highlights": [
-      "Petronas Twin Towers in Kuala Lumpur",
-      "Langkawi’s pristine beaches and islands",
-      "Genting Highlands entertainment hub",
-      "Batu Caves cultural site"
+      "Langkawi beaches",
+      "Kuala Lumpur skyline",
+      "Petronas Twin Towers",
+      "Island hopping experiences",
+      "Cultural diversity"
     ],
     "bestTime": "December to April",
     "activities": [
-      "City Tours",
-      "Island Hopping",
+      "Beach Activities",
+      "City Exploration",
       "Shopping",
-      "Adventure Activities"
+      "Nature Tours",
+      "Cultural Experiences"
     ]
   },
   {
-    "id": "philippines",
-    "name": "Philippines",
-    "tagline": "Tropical Paradise of Islands and Adventure",
-    "description": "An archipelago of over 7,000 islands offering crystal-clear waters, white sandy beaches, and vibrant cultural experiences.",
-    "longDescription": "The Philippines is a tropical paradise known for its stunning beaches, crystal-clear waters, and warm hospitality. From the historic streets of Manila to the breathtaking islands of Cebu and Bohol, visitors can enjoy island hopping, snorkeling, and cultural exploration. Discover the Chocolate Hills, meet the tiny tarsiers, and experience vibrant local traditions. It’s an ideal destination for both relaxation and adventure.",
-    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/destinations/philippines.jpg",
-    "heroImage": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/destinations/philippines.jpg",
+    "id": "azerbaijan",
+    "name": "Azerbaijan",
+    "tagline": "The Land of Fire and Cultural Heritage",
+    "description": "A unique destination blending modern architecture with ancient history.",
+    "longDescription": "Azerbaijan, especially Baku, offers a striking contrast between futuristic architecture and historic landmarks. Visitors can explore the old city, modern skyline, mud volcanoes, and cultural sites, making it an emerging destination for travelers seeking something different and unique.",
+    "image": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/baku-charm-culture-4n5d/1.jpg",
+    "heroImage": "https://pub-87da1cee936e47d89742e0b6a205adcb.r2.dev/images/trips/baku-charm-culture-4n5d/1.jpg",
     "highlights": [
-      "White sand beaches and island hopping",
-      "Chocolate Hills in Bohol",
-      "Tarsier Sanctuary",
-      "Historic Intramuros in Manila"
+      "Baku skyline and Flame Towers",
+      "Old City heritage sites",
+      "Gobustan rock carvings",
+      "Mud volcanoes",
+      "Modern architecture"
     ],
-    "bestTime": "November to May",
+    "bestTime": "April to June & September to November",
     "activities": [
-      "Island Hopping",
-      "Snorkeling",
-      "Beach Activities",
-      "Cultural Tours"
+      "City Tours",
+      "Cultural Exploration",
+      "Nature Excursions",
+      "Photography",
+      "Leisure Travel"
     ]
   }
 ]
